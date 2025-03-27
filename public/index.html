@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="WOTC Screening Assistant powered by Dialogflow"
+    />
+    <title>WOTC Screening Assistant</title>
+
+    <!-- ✅ Dialogflow Messenger Script -->
+    <script
+      src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- ✅ Dialogflow Messenger Embed -->
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Chatbot_poc_agent"
+      agent-id="bc780ec8-b9bd-4233-a065-bfeb7f290359"
+      language-code="en"
+    ></df-messenger>
+  </body>
+</html>
